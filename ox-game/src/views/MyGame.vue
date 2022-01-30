@@ -1,10 +1,17 @@
 <template>
   <div>
-    MyGame
+      MyGame
   </div>
+  <OXTable />
 </template>
 <script>
-export default {}
+import OXTable from '../components/OXTable.vue'
+export default {
+  components: {
+    OXTable: OXTable
+  }
+}
 </script>
 <style>
+
 </style>
